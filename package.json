@@ -1,0 +1,20 @@
+{
+  "name": "contructor-word-guess",
+  "version": "1.0.0",
+  "description": "advanced javascript optional homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harblesin/contructor-word-guess.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harblesin/contructor-word-guess/issues"
+  },
+  "homepage": "https://github.com/harblesin/contructor-word-guess#readme"
+}

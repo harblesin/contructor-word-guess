@@ -6,13 +6,13 @@ var list = ["apple"];
 var wordMake = function (guess) {
     this.letters = [];
     this.returnWord = function (guess) {
-        //this.letters.push(new newLetter(guess.split("")));
+        this.letters.push(guess.split(""));
         //console.log(new newLetter(guess.split("")));
         for(var i = 0; i < this.letters.length; i++){
             
-            var yes = new newLetter(guess.split(""));
-            //console.log(yes.letterGuessed(yes));
-            console.log(yes)
+            let yes = new newLetter(this.letters[i]);
+            console.log(yes.letterGuessed());
+            //console.log(this.letters[i]);
         }
         //console.log(guess.letters);
     }
